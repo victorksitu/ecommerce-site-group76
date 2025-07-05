@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 
 // --- IMAGE IMPORTS ---
-// Import images from the src/imgs folder to be used in the application.
 import tshirt from './imgs/tshirt.jpg';
 import tshirt2 from './imgs/tshirt2.jpg';
 import tshirt3 from './imgs/tshirt3.jpg';
@@ -21,10 +20,7 @@ import sweatswomen from './imgs/sweatswomen.jpg';
 import sweatswomen2 from './imgs/sweatswomen2.jpg';
 
 
-// --- DATA ---
-// Product data has been simplified. Each image now corresponds to one product
-// with a single, specific material. IDs have been re-sequenced.
-// Image paths now use the imported variables from above.
+// --- DATA -
 const products = [
     // T-Shirts (Unisex)
     { id: 1, name: 'Vintage Wash T-Shirt', type: 'T-Shirt', gender: 'Unisex', price: 28.00, image: tshirt3, color: 'Olive', size: ['XS', 'S', 'M', 'L', 'XL'], material: 'Cotton' },
